@@ -1,0 +1,195 @@
+.page{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.projects-page{
+
+
+    .Header{
+    font-size: 53px;
+    color: #5ceeaf;
+    font-weight: 400;
+    margin-top:0;
+    position: relative;
+    top: 20px;
+    margin-bottom: 40px;
+    left: 300px;
+    animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+        max-width: 90%;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .card {
+        width: auto;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        border: 1px solid #ccc;
+        background-color: rgba(119, 136, 153,0.4);
+        border-radius: 5px;
+    }
+
+    .card img {
+        width: 100%;
+        max-height: 400px;
+        object-fit:contain;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        padding: 8px;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        background-color: #FFF;
+        border: #000;
+        border-width: 2px;
+        border-radius: 4px;
+        
+            
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    .flat-button{
+            
+        margin: 0 auto;
+        font-family: 'OCR A Extended', sans-serif; 
+        color: #5ceeaf;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        width: 40px;
+        border-color: #5ceeaf;
+        animation: fadeIn1s 1.8s backwards;
+        white-space: nowrap;
+            
+            
+            
+
+        &:hover {
+            background:#5ceeaf ;
+            color: #333
+        }
+
+        }
+
+
+
+    .research-zone{
+        &::before{
+            content: 'def Research(){';
+            color: #5ceeaf;
+            font-size: 18px;
+            position: relative;
+            top: 20px;
+            left: 200px;
+            
+            animation: fadeIn 1s 1.8s backwards;
+            opacity: 0.6;
+            
+        }
+        
+        .card {
+            width: 50%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            background-color: rgba(119, 136, 153,0.4);
+            border-radius: 5px;
+        }
+
+        .card p {
+        padding: 8px;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        background-color: #FFF;
+        border: #000;
+        border-width: 2px;
+        border-radius: 4px;
+        min-height: 21%;
+            
+        }
+    }
+       
+    .school-zone{
+        
+        .card {
+            width: 33%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            background-color: rgba(119, 136, 153,0.4);
+            border-radius: 5px;
+        }
+
+        .card p {
+        padding: 8px;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        background-color: #FFF;
+        border: #000;
+        border-width: 2px;
+        border-radius: 4px;
+        min-height: 24%;
+            
+    }
+    }    
+    
+
+    .personal-zone{
+       
+      
+        .card-container {
+        display: flex;
+        justify-content: center;
+        padding-left: 5%;
+        max-width: 90%;
+        min-height: 600px;
+        padding-bottom: 150px;
+        }
+
+        .card {
+            width: 20%;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ccc;
+            background-color: rgba(119, 136, 153,0.4);
+            border-radius: 5px;
+            bottom: 500px;
+        }
+
+        .card p {
+        padding: 8px;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-bottom: 10px;
+        background-color: #FFF;
+        border: #000;
+        border-width: 2px;
+        border-radius: 4px;
+        min-height: 33%;
+            
+        }
+
+        
+    }
+        
+}
+
